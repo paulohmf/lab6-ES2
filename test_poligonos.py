@@ -59,7 +59,7 @@ class TestCirculo(unittest.TestCase):
     c.mudar_raio(2)
     self.assertEqual(2, c.get_raio())
 
-    c.mudar_lado(3)
+    c.mudar_raio(3)
     self.assertEqual(3, c.get_raio())
 
   def calcular_diametro(self):
