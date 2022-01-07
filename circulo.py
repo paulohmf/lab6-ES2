@@ -1,4 +1,4 @@
-import numpy as np
+pi = 3.14
 
 class Circulo:
     def __init__(self, raio=1):
@@ -8,10 +8,10 @@ class Circulo:
       self.raio = novo_raio
 
     def calcular_area_circulo(self):
-      return np.pi * self.raio * self.raio
+      return pi * self.raio * self.raio
 
     def calcular_perimetro_circulo(self):
-      return np.pi * self.raio * 2
+      return pi * self.raio * 2
 
     def calcular_diametro(self):
       return self.raio * 2
