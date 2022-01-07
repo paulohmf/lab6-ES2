@@ -1,5 +1,4 @@
 import unittest
-import numpy as np
 from quadrado import Quadrado
 from circulo import Circulo
 
@@ -72,14 +71,14 @@ class TestCirculo(unittest.TestCase):
 
   def test_calcular_area_circulo(self):
     c = Circulo()
-    self.assertEqual(np.pi, c.test_calcular_area_circulo())
+    self.assertEqual(3.14, c.test_calcular_area_circulo())
     
     c = Circulo(2)
-    self.assertEqual(4*np.pi, c.test_calcular_area_circulo())
+    self.assertEqual(4*3.14, c.test_calcular_area_circulo())
 
   def test_calcular_perimetro_circulo(self):
     c = Circulo()
-    self.assertEqual(2*np.pi, c.test_calcular_perimetro_circulo())
+    self.assertEqual(2*3.14, c.test_calcular_perimetro_circulo())
     
     c = Circulo(2)
-    self.assertEqual(4*np.pi, c.test_calcular_perimetro_circulo())
+    self.assertEqual(4*3.14, c.test_calcular_perimetro_circulo())
