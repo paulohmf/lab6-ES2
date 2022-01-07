@@ -52,7 +52,7 @@ class TestCirculo(unittest.TestCase):
     self.assertEqual(1, c.get_raio())
     
     c = Circulo(3)
-    self.assertEqual(3, q.get_raio())
+    self.assertEqual(3, c.get_raio())
 
   def test_mudar_raio(self):
     c = Circulo()
@@ -79,7 +79,7 @@ class TestCirculo(unittest.TestCase):
 
   def test_calcular_perimetro_circulo(self):
     c = Circulo()
-    self.assertEqual(2*np.pi, q.test_calcular_perimetro_circulo())
+    self.assertEqual(2*np.pi, c.test_calcular_perimetro_circulo())
     
     c = Circulo(2)
-    self.assertEqual(4*np.pi, q.test_calcular_perimetro_circulo())
+    self.assertEqual(4*np.pi, c.test_calcular_perimetro_circulo())
