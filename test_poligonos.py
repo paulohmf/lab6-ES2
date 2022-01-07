@@ -22,17 +22,17 @@ class TestQuadrado(unittest.TestCase):
 
   def test_calcular_area_quadrado(self):
     q = Quadrado()
-    self.assertEqual(1, q.test_calcular_area_quadrado())
+    self.assertEqual(1, q.calcular_area_quadrado())
     
     q = Quadrado(2)
-    self.assertEqual(4, q.test_calcular_area_quadrado())
+    self.assertEqual(4, q.calcular_area_quadrado())
 
   def test_calcular_perimetro_quadrado(self):
     q = Quadrado()
-    self.assertEqual(4, q.test_calcular_perimetro_quadrado())
+    self.assertEqual(4, q.calcular_perimetro_quadrado())
     
     q = Quadrado(2)
-    self.assertEqual(8, q.test_calcular_perimetro_quadrado())
+    self.assertEqual(8, q.calcular_perimetro_quadrado())
 
   def test_somar_areas(self):
     q1 = Quadrado()
@@ -71,14 +71,14 @@ class TestCirculo(unittest.TestCase):
 
   def test_calcular_area_circulo(self):
     c = Circulo()
-    self.assertEqual(3.14, c.test_calcular_area_circulo())
+    self.assertEqual(3.14, c.calcular_area_circulo())
     
     c = Circulo(2)
-    self.assertEqual(4*3.14, c.test_calcular_area_circulo())
+    self.assertEqual(4*3.14, c.calcular_area_circulo())
 
   def test_calcular_perimetro_circulo(self):
     c = Circulo()
-    self.assertEqual(2*3.14, c.test_calcular_perimetro_circulo())
+    self.assertEqual(2*3.14, c.calcular_perimetro_circulo())
     
     c = Circulo(2)
-    self.assertEqual(4*3.14, c.test_calcular_perimetro_circulo())
+    self.assertEqual(4*3.14, c.calcular_perimetro_circulo())
