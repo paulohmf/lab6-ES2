@@ -1,4 +1,5 @@
 import unittest
+import numpy as np
 from quadrado import Quadrado
 from circulo import Circulo
 
